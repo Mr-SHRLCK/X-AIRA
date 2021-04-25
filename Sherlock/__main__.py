@@ -56,12 +56,12 @@ from Andrea import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from Andrea.modules import ALL_MODULES
-from Andrea.modules.helper_funcs.alternate import typing_action
-from Andrea.modules.helper_funcs.chat_status import is_user_admin
-from Andrea.modules.helper_funcs.misc import paginate_modules
-from Andrea.modules.helper_funcs.readable_time import get_readable_time
-from Andrea.modules.helper_funcs.chat_status import dev_plus, is_user_admin
+from Sherlock.modules import ALL_MODULES
+from Sherlcok.modules.helper_funcs.alternate import typing_action
+from Sherlock.modules.helper_funcs.chat_status import is_user_admin
+from Sherlock.modules.helper_funcs.misc import paginate_modules
+from Sherlock.modules.helper_funcs.readable_time import get_readable_time
+from Sherlock.modules.helper_funcs.chat_status import dev_plus, is_user_admin
 
 PM_START_TEXT = """
 Hello there, I'm Andrea 
@@ -125,7 +125,7 @@ USER_SETTINGS = {}
 GDPR = []
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("Andrea.modules." + module_name)
+    imported_module = importlib.import_module("Sherlock.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -229,7 +229,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "αndrєα..\n <b>Python version:</b> 3.9.2\n <b>Database:</b> crazy cat\n <b>Servrer:</b> heroku\n <b>uptime:</b> <code>{}</code>".format(
+            "αndrea..\n <b>Python version:</b> 3.9.2\n <b>Database:</b> crazy cat\n <b>Servrer:</b> heroku\n <b>uptime:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
