@@ -64,11 +64,11 @@ from Sherlock.modules.helper_funcs.readable_time import get_readable_time
 from Sherlock.modules.helper_funcs.chat_status import dev_plus, is_user_admin
 
 PM_START_TEXT = """
-Hello there, I'm Andrea 
+Hello there, I'm Aira
 
 I am an pσwєrful Group Managing Bot. And I will help in managing your group
 
-✪ Read the *Guide* for know more details about Andrea ✪ 
+✪ Read the *Guide* for know more details about Aira ✪ 
 """
 
 buttons = [
