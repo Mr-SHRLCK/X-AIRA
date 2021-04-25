@@ -57,7 +57,7 @@ from Sherlock import (
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
 from Sherlock.modules import ALL_MODULES
-from Sherlcok.modules.helper_funcs.alternate import typing_action
+# from Sherlcok.modules.helper_funcs.alternate import typing_action
 from Sherlock.modules.helper_funcs.chat_status import is_user_admin
 from Sherlock.modules.helper_funcs.misc import paginate_modules
 from Sherlock.modules.helper_funcs.readable_time import get_readable_time
