@@ -229,7 +229,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "αndrea..\n <b>Python version:</b> 3.9.2\n <b>Database:</b> crazy cat\n <b>Servrer:</b> heroku\n <b>uptime:</b> <code>{}</code>".format(
+            "αira..\n <b>Python version:</b> 3.9.2\n <b>Database:</b> crazy cat\n <b>Servrer:</b> heroku\n <b>uptime:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
