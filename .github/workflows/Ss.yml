@@ -17,5 +17,5 @@ jobs:
           commit_options: '--no-verify'
           repository: .
           commit_user_name: Mr-Dark-Prince
-          commit_user_email: 73339924+Mr-Dark-Prince@users.noreply.github.com
-          commit_author: Mr-Dark-Prince <73339924+Mr-Dark-Prince@users.noreply.github.com>
+          commit_user_email: 72887386+Mr-SHRLCK@users.noreply.github.com
+          commit_author: MR-SHRLCK <72887386+MR-SHRLCK@users.noreply.github.com>
